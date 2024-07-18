@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useForm, ValidationError } from '@formspree/react';
 
 function Form() {
   const [state, handleSubmit] = useForm("xldrdkgn");
-  if (state.succeeded) {
-    alert('Thanks For Contacting us')
-    
-  }
+  useEffect(()=>{
+    if (state.succeeded) {
+      alert('Thanks For Contacting us');
+      document.getElementById("contact-form").reset();
+    }
+  },[state.succeeded])
   return (
     <>
-      <form onSubmit={handleSubmit} method="POST">
+      <form onSubmit={handleSubmit} method="POST" id="contact-form">
         <label htmlFor="Name">
           Name
           <input type="text" name="Name" className="w-full px-3 py-1 rounded-md mb-3 outline-none" required/>
