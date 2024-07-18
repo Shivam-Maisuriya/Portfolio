@@ -19,7 +19,7 @@ function ContactData() {
 
           {/* contact card */}
           <div className="flex flex-col md:w-[350px] md:h-[450px] p-6 bg-slate-100 container shadow-2xl rounded-lg md:absolute md:right-32 md:bottom-10 justify-center pb-8 dark:text-black">
-            <h3 className="text-2xl font-semibold text-purple-800 mb-10">
+            <h3 className="text-2xl font-semibold text-purple-600 mb-10">
               Contact Me
             </h3>
             <Form />

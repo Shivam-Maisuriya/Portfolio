@@ -8,7 +8,7 @@ function AboutData() {
         {/* content section */}
         <div className="w-full md:w-1/2 mt-12 md:mt-32 md:p-0 p-8">
           <div className="space-y-3">
-            <h1 className="md:text-3xl text-2xl font-bold text-purple-800 mb-8">
+            <h1 className="md:text-3xl text-2xl font-bold text-purple-600 mb-8">
               About Me
             </h1>
 

@@ -1,31 +1,52 @@
 import React from "react";
+import { useForm, ValidationError } from '@formspree/react';
 
 function Form() {
+  const [state, handleSubmit] = useForm("xldrdkgn");
+  if (state.succeeded) {
+    alert('Thanks For Contacting us')
+    
+  }
   return (
     <>
-      <form action="">
-        <label htmlFor="">
+      <form onSubmit={handleSubmit} method="POST">
+        <label htmlFor="Name">
           Name
-          <input type="text" className="w-full px-3 py-1 rounded-md mb-3 outline-none" />
+          <input type="text" name="Name" className="w-full px-3 py-1 rounded-md mb-3 outline-none" required/>
         </label>
+        <ValidationError
+          prefix="Name"
+          field="Name"
+          errors={state.errors}
+        />
         <br />
-        <label htmlFor="">
+        <label htmlFor="Email">
           Email
-          <input type="text" className="w-full px-3 py-1 rounded-md mb-3 outline-none" />
+          <input type="text" name="Email" className="w-full px-3 py-1 rounded-md mb-3 outline-none" required/>
         </label>
+        <ValidationError
+          prefix="Email"
+          field="Email"
+          errors={state.errors}
+        />
         <br />
-        <label htmlFor="">
+        <label htmlFor="Message">
           Message
           <textarea
             name="Message"
             id="message"
             rows={3}
             className="w-full px-3 py-1 rounded-md mb-6 outline-none"
-          ></textarea>
+          required></textarea>
         </label>
+        <ValidationError
+          prefix="Message"
+          field="Message"
+          errors={state.errors}
+        />
 
-        <button className="bg-purple-700 text-white text-lg w-full py-2 px-6 rounded-lg hover:bg-purple-800 duration-500 hover:scale-95">
-          Resume
+        <button className="bg-purple-700 text-white text-lg w-full py-2 px-6 rounded-lg hover:bg-purple-800 duration-500 hover:scale-95" type="submit" disabled={state.submitting}>
+          Submit
         </button>
       </form>
     </>

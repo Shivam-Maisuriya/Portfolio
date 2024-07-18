@@ -10,7 +10,7 @@ function ProjectCard() {
   return (
     <>
       <div className="">
-        <div className="flex justify-around items-center w-full shadow-lg dark:shadow-purple-500 rounded-xl px-8 md:py-16 py-8 md:flex-row flex-col md:space-y-0 space-y-8">
+        <div className="flex justify-around items-center w-full shadow-3xl dark:shadow-purple-500 rounded-xl px-8 md:py-16 py-8 md:flex-row flex-col md:space-y-0 space-y-8">
           {/* image */}
           <div className="rounded-xl shadow-lg  bg-white">
             <img

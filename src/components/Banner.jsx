@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/css.svg";
+import profile from "../images/profile.jpeg";
 
 function Banner() {
   return (
@@ -14,7 +14,7 @@ function Banner() {
             <h1 className="md:text-4xl text-2xl font-bold">Shivam Maisuriya</h1>
 
             <h1 className="md:text-4xl text-2xl font-bold ">
-              <span className="text-purple-800">
+              <span className="text-purple-600">
                 {" "}
                 Full-Stack Web Developer{" "}
               </span>
@@ -48,7 +48,7 @@ function Banner() {
 
         {/* Image section */}
         <div className="md:w-1/2 h-full flex justify-center items-center ">
-          <div className="p-3 size-fit rounded-full bg-purple-800">
+          <div className="p-3 size-fit rounded-full bg-purple-800 shadow-3xl dark:shadow-purple-600">
             <img src={profile} alt="" className="h-80 w-80 rounded-full" />
           </div>
         </div>

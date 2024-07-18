@@ -60,7 +60,7 @@ function Navbar() {
             >
               <a
                 href={link.link}
-                className="text-gray-800 hover:text-purple-800"
+                className="text-gray-800 hover:text-purple-800 dark:text-white"
               >
                 {link.name}
               </a>
@@ -71,7 +71,7 @@ function Navbar() {
         </ul>
         {/* Mode Button */}
         <div className="flex justify-center items-center">
-          <button className="bg-purple-700 ring-1 ring-white text-white py-1 px-1 md:ml-8 rounded-full hover:bg-purple-800 duration-500 hover:scale-95" onClick={handleModeSwitch}>
+          <button className="bg-purple-600 ring-1 ring-white text-white py-1 px-1 md:ml-8 rounded-full hover:bg-purple-800 duration-500 hover:scale-95" onClick={handleModeSwitch}>
 
             <img
               className="w-5"
