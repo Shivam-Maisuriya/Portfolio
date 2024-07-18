@@ -1,12 +1,12 @@
 import React from "react";
-import profile from "../images/profile.jpeg";
+import profile from "../images/css.svg";
 
 function Banner() {
   return (
     <>
-      <div className="max-w-screen h-screen container mx-auto md:px-10 px-4 flex justify-center items-center flex-col-reverse md:flex-row md:pb-10 pt-32">
+      <div className="w-screen h-screen container mx-auto md:px-24 px-7 flex justify-between items-center flex-col-reverse md:flex-row md:pb-10 pt-32">
         {/* content section */}
-        <div className="md:w-1/2 h-full md:flex items-center">
+        <div className="md:w-1/2 h-full md:flex items-center ">
         <div className="space-y-3">
             <h1 className="md:text-5xl text-3xl font-bold">
               Hello, my name is
@@ -41,7 +41,7 @@ function Banner() {
             <br />
             {/* Resume Button*/}
             <button className="bg-purple-700 text-white text-lg py-2 px-6 rounded-full hover:bg-purple-800 duration-500 hover:scale-95 shadow-lg shadow-purple-500">
-              Resume
+              <a href="./Shivam's Resume.pdf" target="_blank">Resume</a>
             </button>
           </div>
         </div>

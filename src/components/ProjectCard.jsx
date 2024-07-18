@@ -10,9 +10,9 @@ function ProjectCard() {
   return (
     <>
       <div className="">
-        <div className="flex justify-around items-center w-full shadow-xl rounded-xl px-8 md:py-16 py-8 md:flex-row flex-col md:space-y-0 space-y-8">
+        <div className="flex justify-around items-center w-full shadow-lg dark:shadow-purple-500 rounded-xl px-8 md:py-16 py-8 md:flex-row flex-col md:space-y-0 space-y-8">
           {/* image */}
-          <div className="rounded-xl shadow-lg bg-white">
+          <div className="rounded-xl shadow-lg  bg-white">
             <img
               src={project}
               alt="image"
@@ -21,7 +21,7 @@ function ProjectCard() {
           </div>
 
           {/* content */}
-          <div className="md:w-1/2 p-8 rounded-xl shadow-xl space-y-2 ">
+          <div className="md:w-1/2 p-8 rounded-xl shadow-xl  space-y-2 ">
             {/* title */}
             <div>
               <h1 className="text-2xl font-semibold">Title</h1>
