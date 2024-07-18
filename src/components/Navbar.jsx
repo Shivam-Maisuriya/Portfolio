@@ -36,7 +36,7 @@ function Navbar() {
   }
 
   return (
-    <div className="shadow-lg w-full fixed top-0 left-0 z-[3]">
+    <div className="shadow-md w-full fixed top-0 left-0 z-[3]">
       <div className="flex items-center justify-between bg-white py-4 md:px-24 px-7 dark:bg-slate-600 ">
         <div className="font-semibold text-2xl cursor-pointer flex items-center text-gray-800 dark:text-white">
           Shivam Maisuriya
@@ -56,7 +56,7 @@ function Navbar() {
           {Links.map((link) => (
             <li
               key={link.name}
-              className="md:ml-8 text-lg md:my-0 my-3 border-none"
+              className="md:ml-8 text-md md:my-0 my-3 border-none"
             >
               <a
                 href={link.link}
@@ -74,7 +74,7 @@ function Navbar() {
           <button className="bg-purple-600 ring-1 ring-white text-white py-1 px-1 md:ml-8 rounded-full hover:bg-purple-800 duration-500 hover:scale-95" onClick={handleModeSwitch}>
 
             <img
-              className="w-5"
+              className="w-5 h-5"
               alt=""
               src={mode === 'light' ? dark : light}
             />

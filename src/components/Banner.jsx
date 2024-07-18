@@ -40,7 +40,7 @@ function Banner() {
 
             <br />
             {/* Resume Button*/}
-            <button className="bg-purple-700 text-white text-lg py-2 px-6 rounded-full hover:bg-purple-800 duration-500 hover:scale-95 shadow-lg shadow-purple-500">
+            <button className="bg-purple-700 text-white text-md py-2 px-6 rounded-full hover:bg-purple-800 duration-500 hover:scale-95 shadow-md shadow-purple-500">
               <a href="./Shivam's Resume.pdf" target="_blank">Resume</a>
             </button>
           </div>

@@ -1,9 +1,9 @@
 import "./index.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
 import Project from "./components/Project/Project";
+import AboutData from "./components/AboutData";
+import ContactData from "./components/ContactData";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
       <div className="dark:bg-slate-800 dark:text-purple-50">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutData />} />
           <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<ContactData />} />
         </Routes>
       </div>
     </>

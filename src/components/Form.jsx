@@ -1,53 +1,58 @@
 import React, { useEffect } from "react";
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from "@formspree/react";
 
 function Form() {
   const [state, handleSubmit] = useForm("xldrdkgn");
-  useEffect(()=>{
+  useEffect(() => {
     if (state.succeeded) {
-      alert('Thanks For Contacting us');
+      // alert('Thanks For Contacting us');
       document.getElementById("contact-form").reset();
     }
-  },[state.succeeded])
+  }, [state.succeeded]);
   return (
     <>
       <form onSubmit={handleSubmit} method="POST" id="contact-form">
-        <label htmlFor="Name">
+        <label htmlFor="Name" className="text-md">
           Name
-          <input type="text" name="Name" className="w-full px-3 py-1 rounded-md mb-3 outline-none" required/>
+          <input
+            type="text"
+            name="Name"
+            className="w-full px-3 py-1 rounded-md mb-3 outline-none text-md text-black dark:bg-slate-800 dark:text-white"
+            placeholder="enter your name"
+            required
+          />
         </label>
-        <ValidationError
-          prefix="Name"
-          field="Name"
-          errors={state.errors}
-        />
+
         <br />
-        <label htmlFor="Email">
+        <label htmlFor="Email" className="text-md">
           Email
-          <input type="text" name="Email" className="w-full px-3 py-1 rounded-md mb-3 outline-none" required/>
+          <input
+            type="email"
+            name="Email"
+            className="w-full px-3 py-1 rounded-md mb-3 outline-none text-md text-black dark:bg-slate-800 dark:text-white"
+            placeholder="enter your email"
+            required
+          />
         </label>
-        <ValidationError
-          prefix="Email"
-          field="Email"
-          errors={state.errors}
-        />
+
         <br />
-        <label htmlFor="Message">
+        <label htmlFor="Message" className="text-md">
           Message
           <textarea
             name="Message"
             id="message"
             rows={3}
-            className="w-full px-3 py-1 rounded-md mb-6 outline-none"
-          required></textarea>
+            className="w-full px-3 py-1 rounded-md mb-6 outline-none text-md text-black dark:bg-slate-800 dark:text-white"
+            placeholder="enter a message"
+            required
+          ></textarea>
         </label>
-        <ValidationError
-          prefix="Message"
-          field="Message"
-          errors={state.errors}
-        />
 
-        <button className="bg-purple-700 text-white text-lg w-full py-2 px-6 rounded-lg hover:bg-purple-800 duration-500 hover:scale-95" type="submit" disabled={state.submitting}>
+        <button
+          className="bg-purple-700 text-white text-lg w-full py-2 px-6 rounded-lg hover:bg-purple-800 duration-500 hover:scale-95"
+          type="submit"
+          disabled={state.submitting}
+        >
           Submit
         </button>
       </form>

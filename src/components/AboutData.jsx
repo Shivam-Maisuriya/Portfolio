@@ -4,19 +4,19 @@ import aboutImage from "../images/img1.jpg";
 function AboutData() {
   return (
     <>
-      <div className="max-w-screen min-h-screen container mx-auto md:px-24 px-7 flex justify-between items-center flex-col-reverse md:flex-row-reverse pb-10">
+      <div className="max-w-screen min-h-screen container mx-auto lg:px-24 px-7 flex justify-between items-center flex-col-reverse lg:flex-row-reverse pb-10">
         {/* content section */}
-        <div className="w-full md:w-1/2 mt-12 md:mt-32 md:p-0 p-8">
+        <div className="w-full lg:w-1/2 mt-12 lg:mt-32 lg:p-0 p-8">
           <div className="space-y-3">
-            <h1 className="md:text-3xl text-2xl font-bold text-purple-600 mb-8">
+            <h1 className="lg:text-3xl text-2xl font-bold text-purple-600 mb-8">
               About Me
             </h1>
 
-            <h1 className="md:text-2xl text-xl font-semibold">
+            <h1 className="lg:text-2xl text-xl font-semibold">
               A Dedicated Fullstack Developer based in Surat, Gujarat{" "}
             </h1>
 
-            <h1 className="md:text-xl text-lg  ">
+            <h1 className="lg:text-xl text-lg  ">
               <div className="text-slate-600 text-justify">
                 {" "}
                 As a Full-Stack Developer, I specialize in React.js, Next.js,
@@ -33,11 +33,11 @@ function AboutData() {
         </div>
 
         {/* Image section */}
-        <div className="w-full md:w-1/2 h-full flex  ">
-          <div className="md:p-0 p-8">
+        <div className="w-full lg:w-1/2 h-full flex  ">
+          <div className="lg:p-0 p-8">
             <img
               src={aboutImage}
-              className="md:h-[400px] md:w-[500px] mt-12 md:mt-32 rounded-xl shadow-lg shadow-slate-700"
+              className="lg:h-[400px] lg:w-[500px] mt-12 lg:mt-32 rounded-xl shadow-lg shadow-slate-600 dark:shadow-purple-600"
               alt="profileImage"
             />
           </div>
