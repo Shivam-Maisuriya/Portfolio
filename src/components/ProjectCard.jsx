@@ -1,10 +1,10 @@
 import React from "react";
-import project from "../images/languages/p1.svg";
-import css from "../images/languages/css.svg";
-import html from "../images/languages/html.svg";
-import js from "../images/languages/js.svg";
-import php from "../images/languages/php.svg";
-import tailwind from "../images/languages/tailwind.svg";
+import project from "../images/p1.svg";
+import css from "../images/css.svg";
+import html from "../images/html.svg";
+import js from "../images/js.svg";
+import php from "../images/php.svg";
+import tailwind from "../images/tailwind.svg";
 
 function ProjectCard() {
   return (
