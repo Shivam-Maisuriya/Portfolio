@@ -6,7 +6,7 @@ function Footer() {
       <div className="">
         <hr />
         <p className="text-sm p-4 flex justify-center items-center">
-          © Copyright 2024 - Developed by Shubhanshu Pandey. All right reserved.
+          © Copyright 2024 - Developed by Shivam Maisuriya. All right reserved.
         </p>
       </div>
     </>
