@@ -4,7 +4,7 @@ import Form from "./Form";
 function ContactData() {
   return (
     <>
-      <div className="max-w-screen md:min-h-screen container mx-auto md:px-24 px-7 p-8 flex items-center flex-col-reverse md:flex-col pt-24 md:pt-24 pb-10 dark:">
+      <div className="max-w-screen md:min-h-screen mx-auto md:px-24 px-7 p-8 flex items-center flex-col-reverse md:flex-col pt-24 md:pt-24 pb-10 dark:">
         {/* Google Form */}
         <div className="w-full rounded-3xl shadow-3xl md:relative dark:shadow-purple-600">
           <iframe

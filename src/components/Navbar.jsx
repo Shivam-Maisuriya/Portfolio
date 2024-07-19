@@ -36,13 +36,11 @@ function Navbar() {
   }
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0 z-[3]">
+    <div className="shadow-md w-screen fixed top-0 left-0 z-[3]">
       <div className="flex items-center justify-between bg-white py-4 md:px-24 px-7 dark:bg-slate-600 ">
         <div className="font-semibold text-2xl cursor-pointer flex items-center text-gray-800 dark:text-white">
           Shivam Maisuriya
         </div>
-
-        
 
         <div className="flex">
         <ul

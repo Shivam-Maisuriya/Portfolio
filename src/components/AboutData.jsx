@@ -4,7 +4,7 @@ import aboutImage from "../images/img1.jpg";
 function AboutData() {
   return (
     <>
-      <div className="max-w-screen min-h-screen container mx-auto lg:px-24 px-7 flex justify-between items-center flex-col-reverse lg:flex-row-reverse pb-10">
+      <div className="max-w-screen min-h-screen mx-auto lg:px-24 px-7 flex justify-between items-center flex-col-reverse lg:flex-row-reverse pb-10">
         {/* content section */}
         <div className="w-full lg:w-1/2 mt-12 lg:mt-32 lg:p-0 p-8">
           <div className="space-y-3">
