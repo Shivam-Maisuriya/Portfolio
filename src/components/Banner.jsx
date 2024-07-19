@@ -4,9 +4,9 @@ import profile from "../images/profile.jpeg";
 function Banner() {
   return (
     <>
-      <div className="w-screen h-screen md:px-20 px-7 flex justify-between items-center flex-col-reverse md:flex-row md:pb-10 pt-32">
+      <div className="w-screen h-screen md:px-24 px-7 flex justify-between items-center flex-col-reverse md:flex-row md:pb-10 pt-32">
         {/* content section */}
-        <div className="md:w-1/2 h-full md:flex items-center ">
+        <div className="md:w-1/2 h-full md:flex items-center">
         <div className="space-y-3">
             <h1 className="md:text-5xl text-3xl font-bold">
               Hello, my name is

@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <section id="home"><Banner /></section>
+      <section id="banner"><Banner /></section>
       <section id="about"><AboutData /></section>
       <section id="project"><ProjectData /></section>
       <section id="contact"><ContactData /></section>

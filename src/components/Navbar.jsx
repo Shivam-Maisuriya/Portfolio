@@ -5,7 +5,7 @@ import light from '../images/sun.png'
 
 function Navbar() {
   const Links = [
-    { name: "HOME", link: "/" },
+    { name: "HOME", link: "/#banner" },
     { name: "ABOUT", link: "#about" },
     { name: "PROJECT", link: "#project" },
     { name: "CONTACT", link: "#contact" },
