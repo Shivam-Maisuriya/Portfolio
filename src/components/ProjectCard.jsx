@@ -1,10 +1,10 @@
 import React from "react";
-import project from "../images/p1.svg";
-import css from '../images/css.svg'
-import html from '../images/html.svg'
-import js from '../images/js.svg'
-import php from '../images/php.svg'
-import tailwind from '../images/tailwind.svg'
+import project from "../images/languages/p1.svg";
+import css from "../images/languages/css.svg";
+import html from "../images/languages/html.svg";
+import js from "../images/languages/js.svg";
+import php from "../images/languages/php.svg";
+import tailwind from "../images/languages/tailwind.svg";
 
 function ProjectCard() {
   return (
@@ -13,11 +13,7 @@ function ProjectCard() {
         <div className="flex justify-around items-center w-full shadow-3xl dark:shadow-purple-500 rounded-xl px-8 lg:py-16 py-8 lg:flex-row flex-col lg:space-y-0 space-y-8">
           {/* image */}
           <div className="rounded-xl shadow-lg  bg-white">
-            <img
-              src={project}
-              alt="image"
-              className="h-72 w-96"
-            />
+            <img src={project} alt="image" className="h-72 w-96" />
           </div>
 
           {/* content */}
@@ -45,10 +41,12 @@ function ProjectCard() {
             </div>
 
             {/* Buttons */}
-            <div className="flex justify-center items-center space-x-2  hover:text-purple-800 hover:scale-110 duration-500">
-              <i className="fa-brands fa-github text-2xl"></i>
-              <p className="font-bold">Code</p>
-            </div>
+            <a href="">
+              <div className="flex justify-center items-center space-x-2  hover:text-purple-800 hover:scale-110 duration-500">
+                <i className="fa-brands fa-github text-2xl"></i>
+                <p className="font-bold">Code</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

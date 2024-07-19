@@ -11,6 +11,7 @@ function ProjectData() {
         <div>
           <ProjectCard />
         </div>
+        
       </div>
     </>
   );
