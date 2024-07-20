@@ -1,16 +1,16 @@
-import React from 'react'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
-import ProjectData from '../ProjectData'
+import React from "react";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+import AllProjectData from "../AllProjectData";
 
 function Project() {
   return (
     <>
-        <Navbar />
-        <ProjectData />
-        <Footer />
+      <Navbar />
+      <AllProjectData />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Project
+export default Project;

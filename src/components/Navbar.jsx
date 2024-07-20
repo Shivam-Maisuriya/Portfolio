@@ -43,7 +43,7 @@ function Navbar() {
 
         <div className="flex">
           <ul
-            className={`md:flex md:items-center font-semibold md:mb-0 md:pb-0 pb-5 absolute md:static bg-white dark:bg-slate-600 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in-out md:duration-0
+            className={`lg:flex md:items-center font-semibold lg:mb-0 md:pb-0 pb-5  absolute lg:static bg-white dark:bg-slate-600 lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in-out lg:duration-0
           ${
             open
               ? "top-16 opacity-100"
@@ -66,13 +66,13 @@ function Navbar() {
             ))}
           </ul>
           {/* Mode Button */}
-          <div className="flex justify-center items-center mr-3">
+          <div className="flex justify-center items-center pr-0">
             <button
               className="bg-purple-600 ring-1 ring-white text-white p-1 md:ml-8 rounded-full hover:bg-purple-800 duration-500 hover:scale-95"
               onClick={handleModeSwitch}
             >
               <img
-                className="w-5 h-5"
+                className="md:w-5 md:h-5 w-5 h-5"
                 alt={mode === "light" ? "dark" : "light"}
                 src={mode === "light" ? dark : light}
               />
@@ -80,7 +80,7 @@ function Navbar() {
           </div>
           <div
             onClick={() => setOpen(!open)}
-            className="text-3xl right-8 top-5 cursor-pointer md:hidden ml-4"
+            className="text-3xl right-8 top-5 cursor-pointer lg:hidden ml-4"
           >
             <ion-icon name={open ? "close" : "menu"}></ion-icon>
           </div>

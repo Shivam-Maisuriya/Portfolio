@@ -18,6 +18,10 @@ function Banner() {
                 {" "}
                 Full-Stack Web Developer{" "}
               </span>
+              <span className="text-purple-800">
+                {" "}
+                & Python Developer{" "}
+              </span>
             </h1>
 
             {/* Attachment */}
