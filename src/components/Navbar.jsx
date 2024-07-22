@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     <div className="shadow-md w-screen fixed top-0 left-0 z-[3]">
-      <div className="flex items-center justify-between bg-white py-3 md:px-24 px-7 dark:bg-slate-600 ">
+      <div className="flex items-center justify-between w-full bg-white py-3 md:px-24 px-7 dark:bg-slate-600 ">
         <div className="font-semibold text-2xl cursor-pointer flex items-center text-gray-800 dark:text-white">
           Shivam Maisuriya
         </div>
@@ -80,7 +80,7 @@ function Navbar() {
           </div>
           <div
             onClick={() => setOpen(!open)}
-            className="text-3xl right-8 top-5 cursor-pointer lg:hidden ml-4"
+            className="text-3xl cursor-pointer lg:hidden ml-3 flex "
           >
             <ion-icon name={open ? "close" : "menu"}></ion-icon>
           </div>

@@ -4,10 +4,10 @@ import profile from "../images/profile.jpeg";
 function Banner() {
   return (
     <>
-      <div className="w-screen h-screen md:px-24 px-7 flex justify-between items-center flex-col-reverse md:flex-row md:pb-10 pt-32">
+      <div className="w-screen h-screen md:px-24 px-7 flex justify-between items-center flex-col-reverse md:flex-row md:pb-10 pt-16">
         {/* content section */}
-        <div className="md:w-1/2 h-full md:flex items-center">
-        <div className="space-y-3">
+        <div className="md:w-1/2 h-1/2 md:flex flex items-center ">
+        <div className="md:space-y-3 space-y-1">
             <h1 className="md:text-5xl text-3xl font-bold">
               Hello, my name is
             </h1>
@@ -51,9 +51,9 @@ function Banner() {
         </div>
 
         {/* Image section */}
-        <div className="md:w-1/2 h-full flex justify-center items-center ">
-          <div className="p-3 size-fit rounded-full bg-purple-800 shadow-3xl dark:shadow-purple-600">
-            <img src={profile} alt="" className="h-80 w-80 rounded-full" />
+        <div className="md:w-1/2 h-1/2 flex justify-center items-center ">
+          <div className="p-2 size-fit rounded-full bg-purple-800 shadow-3xl dark:shadow-purple-600 ">
+            <img src={profile} alt="" className="md:h-80 md:w-80 h-60 w-60 rounded-full" />
           </div>
         </div>
       </div>
