@@ -11,14 +11,14 @@ function VideoChat() {
   return (
     <>
       <div className="">
-        <div className="flex justify-around items-center w-full shadow-3xl dark:shadow-purple-500 rounded-xl px-8 lg:py-16 py-8 lg:flex-row flex-col lg:space-y-0 space-y-8">
+        <div className="flex justify-around items-center w-full shadow-3xl dark:shadow-purple-500 rounded-xl px-8 lg:py-16 py-8 lg:flex-row flex-col lg:space-y-0 space-y-8 ">
           {/* image */}
-          <div className="rounded-xl shadow-lg dark:shadow-purple-500 bg-white">
+          <div className="rounded-xl shadow-lg dark:shadow-purple-500 bg-white ">
             <img src={image} alt="image" className="h-60 w-96 rounded-xl" />
           </div>
 
           {/* content */}
-          <div className="lg:w-1/2 p-6 rounded-xl shadow-xl  space-y-2 ">
+          <div className="lg:w-1/2 p-6 rounded-xl shadow-xl space-y-2 ">
             {/* title */}
             <div>
               <h1 className="text-2xl font-semibold">VideoChat</h1>
@@ -30,7 +30,7 @@ function VideoChat() {
             </div>
 
             {/* icons */}
-            <div className="flex space-x-3 mb-2">
+            <div className="flex space-x-3 mb-2 overflow-hidden">
               <img src={vite} className="w-8 " />
               <img src={react} className="w-8 " />
               <img src={express} className="w-8 " />
