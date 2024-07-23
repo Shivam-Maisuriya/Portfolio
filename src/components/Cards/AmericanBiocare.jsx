@@ -24,7 +24,7 @@ function AmericanBiocare() {
             {/* data */}
             <div className="text-lg text-slate-400 font-semibold text-justify">
               This is a dynamic website made using HTML, CSS, JS this project
-              made by me. This website is used for selling the Bussiness
+              made by me. This website is used for selling the Business
               Solutions related to Medicine Wholesale Store
             </div>
 
