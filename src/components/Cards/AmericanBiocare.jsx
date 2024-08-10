@@ -18,7 +18,7 @@ function AmericanBiocare() {
           <div className="lg:w-1/2 p-6 rounded-xl shadow-xl  space-y-2 ">
             {/* title */}
             <div>
-              <h1 className="text-2xl font-semibold">Amrican Biocare</h1>
+              <h1 className="text-2xl font-semibold">American Biocare</h1>
             </div>
 
             {/* data */}
