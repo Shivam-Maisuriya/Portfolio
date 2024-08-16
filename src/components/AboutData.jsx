@@ -6,7 +6,7 @@ function AboutData() {
     <>
       <div className="max-w-screen min-h-screen mx-auto md:px-24  flex justify-between items-center flex-col-reverse lg:flex-row-reverse pb-10" >
         {/* content section */}
-        <div className="w-full md:w-1/2 mt-12 lg:mt-32 lg:p-0 p-8 lg:ml-4">
+        <div className="w-full lg:w-1/2 mt-12 lg:mt-32 lg:p-0 p-8 lg:ml-4">
           <div className="space-y-3">
             <h1 className="lg:text-3xl text-2xl font-bold text-purple-600 mb-8">
               About Me
@@ -33,7 +33,7 @@ function AboutData() {
         </div>
 
         {/* Image section */}
-        <div className="w-full lg:w-1/2 h-full flex  ">
+        <div className="w-full md:w-1/2 h-full flex  ">
           <div className="lg:p-0 p-8">
             <img
               src={aboutImage}
