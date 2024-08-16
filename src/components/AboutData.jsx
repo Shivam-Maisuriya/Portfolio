@@ -33,7 +33,7 @@ function AboutData() {
         </div>
 
         {/* Image section */}
-        <div className="w-full md:w-1/2 h-full flex  ">
+        <div className="w-full lg:w-1/2 h-full flex  ">
           <div className="lg:p-0 p-8">
             <img
               src={aboutImage}
