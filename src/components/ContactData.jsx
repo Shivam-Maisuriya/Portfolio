@@ -9,7 +9,7 @@ function ContactData() {
         <div className="w-full rounded-3xl shadow-3xl md:relative dark:shadow-purple-600">
           <iframe
             className="rounded-xl md:flex hidden "
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464.8636903990164!2d72.85172488213965!3d21.235436093683386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f27ed6164f3%3A0xe5004508473511dc!2sJivan%20Jyot%20School!5e0!3m2!1sen!2sin!4v1720967850769!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d232.43194084211908!2d72.85135633013148!3d21.235375421207277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1737784251555!5m2!1sen!2sin"
             width="100%"
             height="520"
             loading="lazy"
